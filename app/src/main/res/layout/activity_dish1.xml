@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone"
+
+        android:orientation="vertical">
+
+        <!-- Phần giới thiệu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:drawableLeft="@drawable/back"
+                android:layout_width="wrap_content"
+                android:onClick="btnBack"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:paddingRight="45dp"
+                android:layout_weight="1"
+                android:text="Pepperoni Pizza" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/introductionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu về món ăn"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Pepperoni pizza là một trong những loại pizza phổ biến và được ưa chuộng trên khắp thế giới. Được biết đến với hương vị đậm đà, đầy đủ và ngon miệng, loại pizza này thường là sự kết hợp hoàn hảo giữa lớp bánh pizza mỏng, phô mai béo ngậy và lớp topping pepperoni thơm ngon."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/introductionImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pz1_gt" />
+
+        </LinearLayout>
+
+        <!-- Phần lịch sử -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch sử món ăn"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Pepperoni pizza không có một nguồn gốc cụ thể, nhưng có lẽ sự phổ biến của nó bắt nguồn từ pizza truyền thống Ý. Pizza Ý xuất hiện từ thế kỷ 18 tại thành phố Naples, và lớn mạnh vào thế kỷ 19 khi người dân Naples bắt đầu sử dụng cà chua làm thành phần chính."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/historyImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pz1_ls"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <!-- Phần công thức nấu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Công thức nấu"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/recipeImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pz1_cook"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

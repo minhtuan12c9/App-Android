@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message">
+        <item>Người bình thường</item>
+        <item>Người béo phì độ I</item>
+        <item>Người béo phì độ II</item>
+        <item>Thằng mập địt!</item>
+    </string-array>
+
+    <string-array name="tenbaihat">
+        <item>À Lôi</item>
+        <item>See Tình</item>
+        <item>Một Ngày Chẳng Nắng</item>
+    </string-array>
+
+
+</resources>

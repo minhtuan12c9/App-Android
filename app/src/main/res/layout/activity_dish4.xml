@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone"
+
+        android:orientation="vertical">
+
+        <!-- Phần giới thiệu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:drawableLeft="@drawable/back"
+                android:layout_width="wrap_content"
+                android:onClick="btnBack"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:paddingRight="45dp"
+                android:layout_weight="1"
+                android:text="Bacon Cheeseburger" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/introductionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu về món ăn"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Bacon Cheeseburger là một biểu tượng của ẩm thực Mỹ, đậm đà với hương vị thơm ngon của thịt bò tươi, phô mai béo ngậy, và hương thơm của bacon giòn. Nó không chỉ là một món ăn, mà còn là một trải nghiệm đầy đủ các yếu tố vị giác và mùi vị, làm hài lòng khẩu vị của mọi thực khách."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/introductionImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg1" />
+
+        </LinearLayout>
+
+        <!-- Phần lịch sử -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch sử món ăn"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Bacon Cheeseburger, một biểu tượng của ẩm thực Mỹ, xuất hiện từ thế kỷ 20 đầu với sự kết hợp sáng tạo giữa thịt bò xay, bacon, và phô mai. Phổ biến vào những năm 1950 và 1960, món ăn này đã trở thành một biểu tượng của văn hóa pop và sự đa dạng trong ẩm thực Mỹ. Thành công của Bacon Cheeseburger không chỉ nằm ở hương vị thơm ngon mà còn ở sự sáng tạo và pha trộn độc đáo của các nguyên liệu quen thuộc, tạo nên một trải nghiệm ẩm thực độc đáo và đầy mê hoặc."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/historyImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bg2"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <!-- Phần công thức nấu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Công thức nấu"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/recipeImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/bg3"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<!-- res/drawable/rectangle_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF5733" /> <!-- Màu nền cho hình chữ nhật -->
+    <corners android:radius="0dp" /> <!-- Độ cong của góc, 0dp là hình chữ nhật -->
+</shape>

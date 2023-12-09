@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NormalTest.BMI">
+
+    <TextView
+        android:id="@+id/tieude"
+        android:layout_width="419dp"
+        android:layout_height="80dp"
+        android:background="#fecb4b"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/tieude1"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tieude2"
+        android:layout_width="434dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/tieude2"
+        android:textAlignment="center"
+        android:textColor="@color/tieude2"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tieude" />
+
+    <EditText
+        android:id="@+id/chieucao"
+        android:layout_width="343dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="@string/chieucao"
+        android:textColor="@color/black"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tieude2" />
+
+    <EditText
+        android:id="@+id/cannang"
+        android:layout_width="343dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="@string/cannang"
+        android:textColor="@color/black"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chieucao" />
+
+    <Button
+        android:id="@+id/btnKetqua"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="189dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:onClick="btnKetqua"
+        android:text="@string/kettqua"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cannang" />
+
+    <TextView
+        android:id="@+id/ketqua"
+        android:layout_width="376dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="52dp"
+        android:text=""
+        android:visibility="invisible"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#6dbe64"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKetqua" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tieude2"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

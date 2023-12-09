@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone"
+
+        android:orientation="vertical">
+
+        <!-- Phần giới thiệu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:drawableLeft="@drawable/back"
+                android:layout_width="wrap_content"
+                android:onClick="btnBack"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:paddingRight="45dp"
+                android:layout_weight="1"
+                android:text="New York Pizza" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/introductionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu về món ăn"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Pizza New York không xuất phát từ Ý nhưng đã trở thành một biểu tượng văn hóa ẩm thực của thành phố New York. Pizza New York thường được nướng trong lò pizza nhanh chóng và dịch vụ chuyên nghiệp, phản ánh sự năng động và thời đại của thành phố."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/introductionImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pz1_gt" />
+
+        </LinearLayout>
+
+        <!-- Phần lịch sử -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch sử món ăn"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="Đầu thế kỷ 20, cùng với sự di cư lớn từ nước Ý và quốc gia châu Âu khác, New York City trở thành một trung tâm đa dạng văn hóa. Cộng đồng người Ý đầu tiên đến với thành phố đã mang theo niềm đam mê và kỹ thuật làm pizza từ quê hương."
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/historyImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pz1_ls"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <!-- Phần công thức nấu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Công thức nấu"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/recipeImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/pz1_cook"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

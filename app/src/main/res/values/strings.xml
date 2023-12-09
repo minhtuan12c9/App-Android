@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloAndroid20CT3</string>
+    <string name="tieude1">BMI Calculator</string>
+    <string name="tieude2">BMI Chỉ số cơ thể</string>
+    <string name="chieucao">Nhập chiều cao</string>
+    <string name="cannang">Nhập cân nặng</string>
+    <string name="kettqua">Xem kết quả</string>
+    <string name="logo1">Logo 1</string>
+    <string name="logo2">Logo 2</string>
+
+</resources>
